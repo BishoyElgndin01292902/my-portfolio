@@ -74,6 +74,7 @@ section {
     margin: 30px;
 }
 
+
 #projects {
     background-color: #ffebcd; 
     padding: 30px;
@@ -119,6 +120,41 @@ footer {
     border: 3px solid #333;  /* Adds a border around the image */
     margin: 20px 0;  /* Adds space around the image */
     
+}
+
+/* Styling for <main> tag */
+main {
+    padding: 20px;
+    background-color: #ffffff;  /* Background color for the main content area */
+    margin: 20px auto;  /* margin around the <main> tag */
+    max-width: 1400px;  /*  width of the main content */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;  
+}
+h3 {
+    color: blue;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #contact form {
+        padding: 10px;
+    }
 }
 
 
